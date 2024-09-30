@@ -1,3 +1,4 @@
+//Data structure and algorithms
 
   let stack = [];
   
@@ -5,10 +6,21 @@
   stack.push('second');
   stack.push('third');
   stack.pop();
+  stack.length();
+  /* 
+
+1.Stack data structure. LIFO method. Last in, First out.
+
+Stack of books.You cant reach the first book you put, until you remove the rest of them.
+ */
+  console.log(stack);//first,second
   
-  console.log(stack);
   
-  
+
+
+  /*Queue data structure. FIFO method. First in, First out.
+
+Like a line art the cash register. It's a linear data structure. */
   class Queue {
     constructor() {
       this.queue = [];
@@ -30,4 +42,4 @@
 
   myQueue.dequeue();
  
-  console.log(myQueue);
+  console.log(myQueue);//second,third
